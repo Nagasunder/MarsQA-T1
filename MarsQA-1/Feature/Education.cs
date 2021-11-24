@@ -60,5 +60,8 @@ namespace MarsQA_1.Feature
         {
             Driver.driver.FindElement(By.XPath("//*[@class='sixteen wide field']/input[@class='ui teal button ']")).Click();
         }
+
+        
+
     }
 }

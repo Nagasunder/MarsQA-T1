@@ -11,3 +11,5 @@ Scenario: Add Education to Profile
 	And Enter name of the degree
 	And Select year of graduation from dropdown
 	Then Click on Add to save the education details
+
+	

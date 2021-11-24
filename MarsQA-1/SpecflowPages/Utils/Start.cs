@@ -33,7 +33,7 @@ namespace MarsQA_1.Utils
            // string img = SaveScreenShotClass.SaveScreenshot(Driver.driver, "Report");
            //test.Log(LogStatus.Info, "Snapshot below: " + test.AddScreenCapture(img));
             //Close the browser
-           Close();
+           //Close();
              
            // // end test. (Reports)
            // CommonMethods.Extent.EndTest(test);

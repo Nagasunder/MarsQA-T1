@@ -152,29 +152,37 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Feature\AddProfileEducation.cs" />
     <Compile Include="Feature\Education.cs" />
+    <Compile Include="Feature\Hours.cs" />
     <Compile Include="Feature\LanguagesSteps.cs" />
     <Compile Include="Feature\Login.cs" />
-    <Compile Include="Feature\ProgilePage.cs" />
+    <Compile Include="Feature\Availability.cs" />
     <Compile Include="Feature\SearchSkills.cs" />
     <Compile Include="Feature\Skills.cs" />
     <Compile Include="Feature\SpecFlowFeature.cs" />
     <Compile Include="Feature\ViewTheSentRequest.cs" />
+    <Compile Include="MarsQA_1\SpecflowPages.cs" />
     <Compile Include="SpecflowPages\Helpers\CommonMethods.cs" />
     <Compile Include="SpecflowPages\Helpers\ConstantHelpers.cs" />
     <Compile Include="SpecflowPages\Helpers\Driver.cs" />
     <Compile Include="SpecflowPages\Helpers\ExcelLibHelper.cs" />
+    <Compile Include="SpecflowPages\Pages\Education.cs" />
     <Compile Include="SpecflowPages\Pages\SignIn.cs" />
     <Compile Include="SpecflowPages\Utils\Start.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Feature\AddEducation.feature" />
+    <None Include="Feature\Description.feature" />
     <None Include="Feature\details on the Profile page.feature" />
+    <None Include="Feature\EarnTarget.feature" />
     <None Include="Feature\Education.feature" />
+    <None Include="Feature\Hours.feature" />
     <None Include="Feature\Languages.feature" />
     <None Include="Feature\Login.feature" />
-    <None Include="Feature\Progile Page.feature" />
+    <None Include="Feature\Availability.feature" />
     <None Include="Feature\Search Skills.feature" />
     <None Include="Feature\Skills.feature" />
     <None Include="Feature\SpecFlowFeature1.feature" />
